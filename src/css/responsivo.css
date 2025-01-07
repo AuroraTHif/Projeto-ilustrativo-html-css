@@ -1,0 +1,36 @@
+@media(max-widht: 750px){
+    .cyberdevs {
+        flex-direction: column;
+        align-items: center;
+         /*alinhamento*/
+         padding: 30px 0;
+    }
+.cartoes-cyberdev {
+    max-width: 300px;
+}
+.cartoes-cyberdev .cartao-informacoes {
+    padding: 60px 30px 30px;
+    margin-top: -50px;
+}
+.cartoes-cyberdev .cartao-informacoes h3 {
+    font-size: 16px;
+
+
+}
+ .listagem{
+    max-width: 360px;
+ }
+ .listagem .cyberdev {
+    width: 45%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0;
+    border-radius: 8px;
+
+ }
+ .listagem ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+}
